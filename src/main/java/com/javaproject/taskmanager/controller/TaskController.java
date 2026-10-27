@@ -42,7 +42,7 @@ public class TaskController {
         Task savedTask = taskRepository.save(task);
         return ResponseEntity.status(HttpStatus.CREATED).body(savedTask);
     }
-    @PutMapping
+    @PutMapping("/{id}")
     public ResponseEntity<Task> updateTask(@PathVariable Long id,@RequestBody Task updatedTask){
       return taskRepository.findById(id)
               .map(task ->  {
@@ -54,7 +54,7 @@ public class TaskController {
               }).orElse(ResponseEntity.notFound().build());
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteTask(@PathVariable Long id){
         return taskRepository.findById(id)
                 .map(task ->{

@@ -1,0 +1,35 @@
+[33mcommit 2ecf44d7849ffa301a22ecbf02d3a0d0ef384a71[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Abdul Rab <mohammedabdulrab603@gmail.com>
+Date:   Wed Oct 28 05:02:24 2026 +0530
+
+    modify controller for custom queries added in previous commit
+
+[33mcommit 2e15f05a85b2cc9dd50b806edc8fb41c589a665a[m
+Author: Abdul Rab <mohammedabdulrab603@gmail.com>
+Date:   Wed Oct 28 04:57:43 2026 +0530
+
+    add custom queries to repository interface
+
+[33mcommit 3b7361b6327c2e12a65a4f18e96036e35c24c47c[m
+Author: Abdul Rab <mohammedabdulrab603@gmail.com>
+Date:   Wed Oct 28 04:48:59 2026 +0530
+
+    refactor controller class
+
+[33mcommit bee78993a8859579f572308ab32b539c1076ae4a[m
+Author: Abdul Rab <mohammedabdulrab603@gmail.com>
+Date:   Wed Oct 28 04:23:49 2026 +0530
+
+    create repository interface
+
+[33mcommit ebc3361efadbca288741c844d33c93b954f7ac41[m
+Author: Abdul Rab <mohammedabdulrab603@gmail.com>
+Date:   Wed Oct 28 04:19:26 2026 +0530
+
+    define JPA entities
+
+[33mcommit 97c9b928c25a77ca091ee513581ac73a5224982d[m
+Author: Abdul Rab <mohammedabdulrab603@gmail.com>
+Date:   Wed Oct 28 03:58:43 2026 +0530
+
+    configure Databaase
