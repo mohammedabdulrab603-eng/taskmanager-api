@@ -35,14 +35,14 @@ public class TaskService    {
                     return taskRepository.save(task);
                 });
     }
-    public boolean deleteTaskById(Long id) {
+    public boolean deleteTask(Long id) {
         return taskRepository.findById(id)
                 .map(task ->{
                     taskRepository.delete(task);
                     return true;
                 } ).orElse(false);
     }
-    public List<Task> getCompletedTasks(boolean status) {
+    public List<Task> getTasksByCompletionStatus(boolean status) {
         return taskRepository.findByCompleted(status);
     }
     public List<Task> searchTaskByTitle(String title) {
